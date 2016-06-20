@@ -1,3 +1,7 @@
+//
+// This example makes QTableWidgetItem to be TextWrapAnywhere
+//
+
 #include "widget.h"
 #include <QApplication>
 
