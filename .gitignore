@@ -1,0 +1,13 @@
+# Ignoring reference information
+**/reference/**
+
+
+# Ignoring files
+*.pro.user
+moc_*.cpp
+*.o
+Makefile
+
+
+# Ignoring compiled file 
+QTableWidgetItem_TextWrap
