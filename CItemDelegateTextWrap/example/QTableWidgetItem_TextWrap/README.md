@@ -1,1 +1,1 @@
-This example make QTableWidgetItem to be TextWrapAnywhere 
+This example makes QTableWidgetItem to be TextWrapAnywhere 
