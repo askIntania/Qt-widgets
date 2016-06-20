@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>400</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="rowCount">
+    <number>3</number>
+   </property>
+   <property name="columnCount">
+    <number>6</number>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>127</number>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>57</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>71</number>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>35</number>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>No wrap</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Word wrap</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Wrap anywhere</string>
+    </property>
+   </column>
+   <column/>
+   <column/>
+   <column/>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>361</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Make QTableWidgetItem to be TextWrapAnyWhere</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
