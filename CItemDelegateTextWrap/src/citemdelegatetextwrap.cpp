@@ -1,7 +1,7 @@
 #include "citemdelegatetextwrap.h"
 #include <QTableWidgetItem>
 #include <QPainter>
-#include <QDebug>
+
 CItemDelegateTextWrap::CItemDelegateTextWrap(QObject *parent):
     QStyledItemDelegate( parent )
 {
