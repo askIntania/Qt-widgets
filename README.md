@@ -6,5 +6,5 @@
  
  
 ##### To do list
->- [x] Text wrap anywhere for QTableWidgetItem
+>- [x] CItemDelegateTextWrap -> Text wrap anywhere for QTableWidgetItem
 >- [ ] ...
