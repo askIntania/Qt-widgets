@@ -9,5 +9,5 @@ moc_*.cpp
 Makefile
 
 
-# Ignoring compiled file 
+# Ignoring compiled files 
 QTableWidgetItem_TextWrap
