@@ -6,5 +6,5 @@
  
  
 ##### To do list
->- [x] Done
+>- [x] Text wrap anywhere for QTableWidgetItem
 >- [ ] ...
